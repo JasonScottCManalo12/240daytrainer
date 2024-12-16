@@ -1,8 +1,72 @@
-* {
+#div-body {
+    margin: 10px 25px;
+}
+
+#web-main-title {
     margin: 0;
     padding: 0;
 }
 
-.div-body {
-    font-family: Arial, Helvetica, sans-serif;
+.stickynotes {
+    width: 300px;
+    /* height: fit-content; */
+    border-color: gray;
+    /* margin: 25px 0; */
+    padding: 25px 25px;
+    border-color: 10px solid rgb(255, 242, 171);
+}
+
+.stickynotes>.stickynotes-head {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 242, 171);
+}
+
+.stickynotes>.stickynotes-head>h2 {
+    margin: 0;
+    padding: 15px 25px;
+}
+
+.stickynotes>.stickynotes-body {
+    margin: 0;
+    padding: 15px 25px;
+    background-color: rgb(255, 247, 209);
+}
+
+.stickynotes>.stickynotes-body>ol {
+    margin: 0;
+}
+
+.stickynotes>.stickynotes-footer {
+    margin: 0;
+    padding: 15px 25px;
+    background-color: rgb(255, 247, 209);
+    border-top: 7px solid rgb(255, 242, 171);
+}
+
+.stickynotes>.stickynotes-body>ol>li>a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.stickynotes>.stickynotes-body>ol>li>a:hover {
+    text-decoration: underline;
+}
+
+.stickynotes>.stickynotes-body>ol>li>ol>li>a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.stickynotes>.stickynotes-body>ol>li>ol>li>a:hover {
+    text-decoration: underline;
+}
+
+.stickynotes>.stickynotes-footer>div>a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.stickynotes>.stickynotes-footer>div>a:hover {
+    text-decoration: underline;
 }
